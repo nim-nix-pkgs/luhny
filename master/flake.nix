@@ -11,7 +11,6 @@
   inputs.src-luhny-master.ref   = "refs/heads/master";
   inputs.src-luhny-master.owner = "sigmapie8";
   inputs.src-luhny-master.repo  = "luhny";
-  inputs.src-luhny-master.dir   = "";
   inputs.src-luhny-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
